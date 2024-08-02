@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.links h2 {
+    text-transform: uppercase;
+    color: #40ff00;
+    font-weight: 700;
+    font-family: "Belanosima", sans-serif;
+    font-size: clamp(1.5rem, 5vw, 4rem);
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.links ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #071004;
+    font-size: clamp(0.8rem, 2vw, 1rem);
+    text-align: center;
+    background-color: #40ff00;
+    font-family: "poppins", sans-serif;
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.links li a:hover {
+    color: #071004;
+    background-color: white;
+    transform: scale(1.05);
+}
+
+#essential {
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.essentials_back {
+    object-fit: cover;
+    filter: brightness(20%);
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#essentials-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(217, 217, 217, 0.09);
+    border-radius: 0.7rem;
+    min-height: 60vh;
+    width: 90%;
+    max-width: 76rem;
+    margin: 2rem auto;
+    padding: 2rem 1rem;
+}
+
+#sub-heading {
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    font-size: clamp(1.2rem, 3vw, 1.4rem);
+    font-weight: 600;
+    font-family: "poppins", sans-serif;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.834);
+    width: 100%;
+    max-width: 50rem;
+    margin: auto;
+    font-size: clamp(0.9rem, 2vw, 1rem);
+    font-family: "poppins", sans-serif;
+}
+
+#transition {
+    margin-top: 4rem;
+}
+
+@media (max-width: 768px) {
+    .links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .para {
+        padding: 1.5rem 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .links h2 {
+        font-size: clamp(1.2rem, 5vw, 2rem);
+        padding: 1.5rem 0.5rem;
+    }
+
+    .links ul {
+        margin-top: 1rem;
+    }
+
+    .links li a {
+        padding: 0.4rem 0.8rem;
+    }
+
+    .para {
+        padding: 1rem;
+    }
+
+    #sub-heading {
+        font-size: clamp(1rem, 3vw, 1.2rem);
+    }
+
+    p {
+        font-size: clamp(0.8rem, 2vw, 0.9rem);
+    }
+}

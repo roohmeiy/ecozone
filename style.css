@@ -8,12 +8,12 @@
 }
 
 html {
-    overflow: hidden;
     overflow-x: hidden;
 }
 
 body {
     overflow-x: hidden;
+    overflow: hidden;
     width: 100%;
     background-color: #021105;
     padding-botton: 90px;

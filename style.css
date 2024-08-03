@@ -12,11 +12,11 @@ html {
 }
 
 body {
-    overflow-x: hidden;
     overflow: hidden;
+    overflow-x: hidden;
     width: 100%;
     background-color: #021105;
-    padding-botton: 90px;
+    padding-bottom: 90px;
 }
 
 .header {
@@ -566,7 +566,6 @@ a:hover {
     line-height: 42px;
     text-align: center;
     border-radius: 50%;
-    margin: 0 10px;
     transition: 0.3s ease-in-out;
     padding: 0.9rem;
 }

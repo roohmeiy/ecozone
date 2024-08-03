@@ -103,16 +103,16 @@ a:hover {
 
 .heading1 {
     width: 34rem;
-    height: 10rem;
+    height: 6rem;
     font-family: "Belanosima", "sans-serif";
     font-style: bold;
     font-weight: 500;
     color: #FFFFFF;
     font-size: 3rem;
-    padding: 2rem;
+    padding-left: 2rem;
     position: relative;
     left: 4rem;
-    top: 5rem;
+    top: 0;
     animation: home 2s linear 0s 1 forwards;
 }
 
@@ -121,20 +121,20 @@ a:hover {
     color: #1bd640;
     font-family: "Belanosima", "sans-serif";
     font-weight: 650;
-    padding: 2rem;
+    padding-left: 2rem;
     position: relative;
     left: 4rem;
-    top: 2rem;
+    /* top: 2rem; */
     animation: home 2.44s linear 0s 1 forwards;
 }
 
 .para1 {
-    height: 11rem;
+    height: 7.5rem;
     width: 45rem;
     font-size: 1.4rem;
     font-family: "Belanosima", "sans-serif";
     color: #FFFFFF;
-    padding: 1.5rem;
+    padding-left: 1.5rem;
     position: relative;
     left: 4rem;
     top: 0.6rem;
@@ -146,7 +146,7 @@ a:hover {
     height: 4rem;
     position: relative;
     left: 6rem;
-    top: 1rem;
+    /* top: 1rem; */
     animation: home2 3.5s linear 0s 1 forwards;
 }
 

@@ -61,7 +61,7 @@ html, body {
 .links li {
     list-style-type: none;
     background-color: #071004;
-    margin-right: 2rem;
+    margin-right: 5rem;
     cursor: pointer;
 }
 

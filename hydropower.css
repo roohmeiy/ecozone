@@ -12,6 +12,7 @@ body {
 }
 
 #hydro {
+    top:5rem;
     background-repeat: no-repeat;
     width: 100%;
     min-height: 100vh;
@@ -112,3 +113,150 @@ body {
         font-size: clamp(0.7rem, 2vw, 0.9rem);
     }
 }
+
+.header {
+    height: 4rem;
+    background-color: #071004;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 0 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.logo1 {
+    height: 3rem;
+}
+
+.logoname {
+    width: 8rem;
+    margin-bottom: 0.7rem;
+}
+
+ul {
+    display: flex;
+    background-color: #071004;
+}
+
+li {
+    list-style-type: none;
+    background-color: #071004;
+    margin-right: 5rem;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #acb8a5;
+    font-family: "poppins", "sans-serif";
+}
+
+a:hover {
+    color: #f0f6ec;
+}
+/* menu button */
+#menu-btn {
+    visibility: hidden;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    color: #acb8a5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid transparent;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    position: fixed;
+}
+#menu-btn ion-icon {
+    font-size: 2rem;
+}
+
+#menu-btn:hover {
+    color: #f0f6ec;
+    border: 3px solid white;
+}
+
+
+@media screen and (max-width: 895px) {
+    .links {
+        background-color: #071004;
+        z-index: 10;
+        display: flex;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 82%;
+        height: 35vh;
+        background-color: transparent;
+        top: 60px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: right 0.3s ease-in-out;
+    }
+
+    .links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+    }
+
+
+    .links li {
+        margin: 0.2rem 0;
+        padding: 0.2rem 0rem;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links a {
+        display: block;
+        padding: 0.2rem 0;
+        font-size: 1.2rem;
+    }
+
+    #menu-btn {
+        display: block;
+        visibility: visible;
+        position: absolute;
+        top: 1rem;
+        right: 1.9rem;
+        z-index: 800;
+    }
+
+    /* Toggle the menu */
+    .links.active {
+        right: 0;
+    }
+}
+

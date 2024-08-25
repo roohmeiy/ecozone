@@ -62,16 +62,20 @@
 }
 
 .heading {
+    margin-top:1.2rem;
+    margin-bottom:1.2rem;
     text-transform: uppercase;
     color: #23f423;
     font-weight: 700;
-    font-family: "poppins", "sans-serif";
-    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
 }
 
 .subheading {
+    margin-top:1.2rem;
+    margin-bottom:1.2rem;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #ffffff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }

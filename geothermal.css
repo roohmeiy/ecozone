@@ -59,23 +59,30 @@ body {
 }
 
 .heading {
+    margin-top:1.2rem;
+    margin-bottom:1.2rem;
     text-transform: uppercase;
     color: #23f423;
     font-weight: 700;
-    font-family: "poppins", sans-serif;
-    font-size: clamp(1rem, 3vw, 1.5rem);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
 }
 
 .subheading {
+    margin-top:1.2rem;
+    margin-bottom:1.2rem;
     font-weight: 600;
-    font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+    font-size: 1.2rem;
     color: #ffffff;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .subpoints {
-    font-size: clamp(0.8rem, 2vw, 1rem);
-    color: white;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+    font-size: 1rem;
+    color: #ffffff;
+    font-style: italic;
     font-weight: 500;
 }
 

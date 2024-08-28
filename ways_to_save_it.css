@@ -20,10 +20,10 @@
 .ways_back {
     object-fit: cover;
     filter: brightness(20%);
-    position: absolute;
+    position: fixed;
     z-index: -1;
     width: 100%;
-    height: 400%;
+    height: 100%;
     top: 0;
     bottom: 0;
 }

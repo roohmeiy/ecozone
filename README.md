@@ -39,6 +39,6 @@ sudo mv /path to/ecozone /var/www/
 sudo systemctl reload nginx
 ```
 7. Access the Project once the setup is complete, you should be able to access the ecozone project by navigating to your server's IP address in a web browser.
-8.  ```bash
+```bash
      http://localhost:80
 ```
